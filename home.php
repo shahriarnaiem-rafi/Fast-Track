@@ -12,7 +12,8 @@
 
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.22/dist/full.min.css" rel="stylesheet" type="text/css" />
     <!-- bostrap library link -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <!-- my css -->
     <style>
@@ -48,37 +49,6 @@
         <nav class="container">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
-                    <div class="dropdown">
-
-                        <!-- <ul
-                            tabindex="0"
-                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                            <li><a>Home</a></li>
-                            <li>
-                                <a>About us</a>
-                                <ul class="p-2">
-                                    <li><a>Submenu 1</a></li>
-                                    <li><a>Submenu 2</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a>Our service</a>
-                                <ul class="p-2">
-                                    <li><a>Submenu 1</a></li>
-                                    <li><a>Submenu 2</a></li>
-                                </ul>
-                            </li>
-                         
-                            <li><a>Notic Board</a></li>
-                            <li>
-                                <a>Our service</a>
-                                <ul class="p-2">
-                                    <li><a>Submenu 1</a></li>
-                                    <li><a>Submenu 2</a></li>
-                                </ul>
-                            </li>
-                        </ul> -->
-                    </div>
                     <a class="text-xl" href="#"><img src="./img/logo.png" alt="" style="width:80px"></a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
@@ -141,11 +111,13 @@
                     <img src="./img/carosoul3.png" class="d-block w-100" alt="...">
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
@@ -154,36 +126,70 @@
         <!-- after carosoul -->
         <div class="container">
             <h1 class="text-5xl font-bold text-center">Our Valued Services</h1>
-            <p class="text-center">Thanks for staying at <a href="#" style="color:orange;">Fast Track</a>.We hope to have the pleasure of doing business with you in the future.</p>
+            <p class="text-center">Thanks for staying at <a href="#" style="color:orange;">Fast Track</a>.We hope to
+                have the pleasure of doing business with you in the future.</p>
 
             <div class="hero bg-base-200 min-h-screen">
                 <div class="hero-content flex-col lg:flex-row-reverse">
                     <div>
-                       
-                            <img src="./img/ict.png" class="w-24 rounded-full"  />
-                 
-                        <h1 class="text-2xl font-bold">Mobile & ICT Equipment Service</h1>
-                        <p class="py-6">
-                        These are regular parcel services limited to the mobile and ICT importers/distributors/manufacturers and vendors. who seek the parcel delivery services from us.
-                        </p>
-                        <button class="btn btn-primary">Get Started</button>
+                        <div>
+                            <img src="./img/ict.png" class="w-24 rounded-full" />
+
+                            <h1 class="text-2xl font-bold">Mobile & ICT Equipment Service</h1>
+                            <p class="py-6">
+                                These are regular parcel services limited to the mobile and ICT
+                                importers/distributors/manufacturers and vendors. who seek the parcel delivery services
+                                from
+                                us.
+                            </p>
+                            <button class="btn btn-primary">Get Started</button>
+                        </div><br>
+                        <div>
+                            <img src="./img/ECommerce.png" class="w-24 rounded-full" />
+
+                            <h1 class="text-2xl font-bold">Ecommerce </h1>
+                            <p class="py-6">
+                                These are regular parcel services limited to the mobile and ICT
+                                importers/distributors/manufacturers and vendors. who seek the parcel delivery services
+                                from
+                                us.
+                            </p>
+                            <button class="btn btn-primary">Get Started</button>
+                        </div>
                     </div>
                     <div class="avatar">
 
                         <img src="./img/round.png" class="w-24 rounded-full" />
 
                     </div>
+                    <div>
+                        <div>
+                            <img src="./img/doc.png" class="w-24 rounded-full" />
+                            <h1 class="text-2xl font-bold">Document Service</h1>
+                            <p class="py-6">
+                                Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
+                                exercitationem
+                                quasi. In deleniti eaque aut repudiandae et a id nisi.
+                            </p>
+                            <button class="btn btn-primary">Get Started</button>
 
-                    <div> <img src="./img/doc.png" class="w-24 rounded-full" />
-                        <h1 class="text-2xl font-bold">Document Service</h1>
-                        <p class="py-6">
-                            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-                            quasi. In deleniti eaque aut repudiandae et a id nisi.
-                        </p>
-                        <button class="btn btn-primary">Get Started</button>
+                        </div><br>
+                        <div>
+                            <img src="./img/dolar.png" class="w-24 rounded-full" />
+                            <h1 class="text-2xl font-bold">Money Service</h1>
+                            <p class="py-6">
+                                Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
+                                exercitationem
+                                quasi. In deleniti eaque aut repudiandae et a id nisi.
+                            </p>
+                            <button class="btn btn-primary">Get Started</button>
+                        </div>
                     </div>
+
                 </div>
+
             </div>
+
         </div>
 
 
@@ -194,7 +200,9 @@
     <!-- taildwin -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
