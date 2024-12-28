@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <a href="./logout.php">logout</a>
+    <a href="../logout.php">logout</a>
     
 </body>
 </html>
