@@ -6,9 +6,6 @@ if (isset($_POST["loggedin"])) {
 
     $email = $_POST["email"];
     $password = $_POST["password"];
-
-
-
     try {
         $check = $database->prepare("SELECT * FROM registration WHERE  email= ?");
         $check->bind_param("s", $email);
@@ -21,7 +18,7 @@ if (isset($_POST["loggedin"])) {
                     //set session 
                     $_SESSION['user-id'] = $user['id'];
                     $_SESSION['email'] = $user['email'];
-                    header("location:Adminpannel.php");
+                    header("Location:Adminpannel.php");
                     exit();
     
                 } else {
