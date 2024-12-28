@@ -18,7 +18,7 @@ if (isset($_POST["loggedin"])) {
                 // Set session variables
                 $_SESSION['user-id'] = $user['id'];
                 $_SESSION['email'] = $user['email'];
-                header("Location:./adminpannel/adminpannel.php");
+                header("Location:./adminpannel/main.php");
                 exit();
             } else {
                 $error_massage = "Invalid password. Try again.";
