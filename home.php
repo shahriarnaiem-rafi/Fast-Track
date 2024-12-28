@@ -313,7 +313,7 @@
                     <p class="text-center text-xl">See the most frequently asked questions.We are here to help.</p>
                 </div>
                 <br>
-                <h1 style="margin-left:90px" class="text-3xl"><span class="text-info">01</span> What is Fast-track?</h1>
+                <h1 style="margin-left:90px" class="text-3xl"><span class="text-[#ffd600] font-bold">01</span> What is Fast-track?</h1>
                 <p style="margin-left:110px" class="text-2xl">Fast-track is a well-known courier & parcel services in Bangladesh. </p>
             </div>
             <br>
