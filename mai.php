@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
     <!-- fon t cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    <!-- bostrap css library link -->
+    <!-- daust yui css library link -->
 
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.22/dist/full.min.css" rel="stylesheet" type="text/css" />
     <!-- bostrap library link -->
@@ -88,7 +88,7 @@
                                 </ul>
                             </details>
                         </li>
-                        <li> <a class="btn  btn-danger">Track Me</a></li>
+                        <li> <a class="btn  btn-danger" href="track.php">Track Me</a></li>
                     </ul>
                 </div>
                 <div class="navbar-end">
@@ -147,7 +147,7 @@
                         <div>
                             <img src="./img/ECommerce.png" class="w-24 rounded-full" />
 
-                            <h1 class="text-2xl font-bold">Ecommerce </h1>
+                            <h1 class="text-2xl font-bold">E-Commerce Service </h1>
                             <p class="py-6">
                                 These are regular parcel services limited to the mobile and ICT
                                 importers/distributors/manufacturers and vendors. who seek the parcel delivery services
@@ -176,7 +176,7 @@
                         </div><br>
                         <div>
                             <img src="./img/dolar.png" class="w-24 rounded-full" />
-                            <h1 class="text-2xl font-bold">Money Service</h1>
+                            <h1 class="text-2xl font-bold">Value Declared Service</h1>
                             <p class="py-6">
                                 Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
                                 exercitationem
@@ -191,8 +191,19 @@
             </div>
 
         </div>
+        <br>
+        <section class="container">
+            <div class="container">
+                <h1 class="text-5xl font-bold text-center">Our Location</h1>
+                <p class="text-center text-2xl">Fast-track Courier Service has the most widespread network in Bangladesh. Click below to view a list of all our Branches and Agencies.</p>
+                <div class="text-center">
+                    <button class="btn btn-info">View list</button>
+                </div>
+            </div>
+        </section>
+        <br>
 
-
+        
     </main>
 
 
