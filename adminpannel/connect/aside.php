@@ -36,7 +36,7 @@
                   </p>
                 </a>
                 <ul class="nav nav-treeview">
-                  <li class="nav-item">
+                  <li class="nav-item " id="my-dashboard">
                     <a href="./index.php" class="nav-link active">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>Dashboard v1</p>
@@ -46,7 +46,7 @@
               </li>
              
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="#" class="nav-link dashboard-show">
                   <i class="nav-icon bi bi-pencil-square"></i>
                   <p>
                     Forms
@@ -55,7 +55,7 @@
                 </a>
                 <ul class="nav nav-treeview">
                   <li class="nav-item">
-                    <a href="./forms/general.html" class="nav-link">
+                    <a href="" class="nav-link transection-history'">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>General Elements</p>
                     </a>
