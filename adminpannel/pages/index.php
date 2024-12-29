@@ -4,7 +4,7 @@
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>AdminLTE v4 | Dashboard</title>
+  <title>Admin  Dashboard</title>
   <!--begin::Primary Meta Tags-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="title" content="AdminLTE v4 | Dashboard" />
@@ -15,7 +15,7 @@
     content="bootstrap 5, bootstrap, bootstrap 5 admin dashboard, bootstrap 5 dashboard, bootstrap 5 charts, bootstrap 5 calendar, bootstrap 5 datepicker, bootstrap 5 tables, bootstrap 5 datatable, vanilla js datatable, colorlibhq, colorlibhq dashboard, colorlibhq admin dashboard" />
   <!--end::Primary Meta Tags-->
   <!-- my font awsome cdn -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
   <!--begin::Fonts-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/source-sans-3@5.0.12/index.css"
     integrity="sha256-tXJfXfp6Ewt1ilPzLDtQnJV4hclT9XuaZUKyUvmyr+Q=" crossorigin="anonymous" />
@@ -258,114 +258,89 @@
       <!--end::App Content Header-->
       <!--begin::App Content-->
 
-      
-      <div class="" id="my-dashboard">
-        <div class="app-content">
+
+      <div>
+
+        <div class="app-content ">
           <!--begin::Container-->
 
 
-
-
-
-
-
-
-
-
-
-          
-
-
-
           <div class="container-fluid dashboard-show">
-            <!--begin::Row-->
             <div class="row">
-              <!--begin::Col-->
-              <div class="col-lg-3 col-6">
+              <!--begin::Col (First row, first column)-->
+              <div class="col-lg-6 col-12"> <!-- Adjusted to col-lg-6 to fit two boxes per row -->
                 <!--begin::Small Box Widget 1-->
-                <div class="small-box text-bg-primary">
+                <div class="small-box text-bg-primary" style="width: 70%; height: 210px; margin: 0 auto; margin-bottom: 20px;"> <!-- Updated height to 210px -->
                   <div class="inner">
                     <h3>150</h3>
-                    <p>Parsel Received
-                    </p>
+                    <p>Parsel Received</p>
                   </div>
-                  <svg class="small-box-icon" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
-                    aria-hidden="true">
-                    <path
-                      d="M2.25 2.25a.75.75 0 000 1.5h1.386c.17 0 .318.114.362.278l2.558 9.592a3.752 3.752 0 00-2.806 3.63c0 .414.336.75.75.75h15.75a.75.75 0 000-1.5H5.378A2.25 2.25 0 017.5 15h11.218a.75.75 0 00.674-.421 60.358 60.358 0 002.96-7.228.75.75 0 00-.525-.965A60.864 60.864 0 005.68 4.509l-.232-.867A1.875 1.875 0 003.636 2.25H2.25zM3.75 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM16.5 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z">
-                    </path>
+                  <svg class="small-box-icon" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M2.25 2.25a.75.75 0 000 1.5h1.386c.17 0 .318.114.362.278l2.558 9.592a3.752 3.752 0 00-2.806 3.63c0 .414.336.75.75.75h15.75a.75.75 0 000-1.5H5.378A2.25 2.25 0 017.5 15h11.218a.75.75 0 00.674-.421 60.358 60.358 0 002.96-7.228.75.75 0 00-.525-.965A60.864 60.864 0 005.68 4.509l-.232-.867A1.875 1.875 0 003.636 2.25H2.25zM3.75 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM16.5 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"></path>
                   </svg>
-                  <a href="#"
-                    class="small-box-footer link-light link-underline-opacity-0 link-underline-opacity-50-hover">
+                  <a href="#" class="small-box-footer link-light link-underline-opacity-0 link-underline-opacity-50-hover">
                     More info <i class="bi bi-link-45deg"></i>
                   </a>
                 </div>
                 <!--end::Small Box Widget 1-->
               </div>
               <!--end::Col-->
-              <div class="col-lg-3 col-6">
+
+              <!--begin::Col (First row, second column)-->
+              <div class="col-lg-6 col-12"> <!-- Adjusted to col-lg-6 to fit two boxes per row -->
                 <!--begin::Small Box Widget 2-->
-                <div class="small-box text-bg-success">
+                <div class="small-box text-bg-success" style="width: 70%; height: 210px; margin: 0 auto; margin-bottom: 20px;"> <!-- Updated height to 210px -->
                   <div class="inner">
                     <h3>400</h3>
-                    <p>Old persel</p>
+                    <p>Old Parsel</p>
                   </div>
-                  <svg class="small-box-icon" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
-                    aria-hidden="true">
-                    <path
-                      d="M18.375 2.25c-1.035 0-1.875.84-1.875 1.875v15.75c0 1.035.84 1.875 1.875 1.875h.75c1.035 0 1.875-.84 1.875-1.875V4.125c0-1.036-.84-1.875-1.875-1.875h-.75zM9.75 8.625c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-.75a1.875 1.875 0 01-1.875-1.875V8.625zM3 13.125c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v6.75c0 1.035-.84 1.875-1.875 1.875h-.75A1.875 1.875 0 013 19.875v-6.75z">
-                    </path>
+                  <svg class="small-box-icon" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M18.375 2.25c-1.035 0-1.875.84-1.875 1.875v15.75c0 1.035.84 1.875 1.875 1.875h.75c1.035 0 1.875-.84 1.875-1.875V4.125c0-1.036-.84-1.875-1.875-1.875h-.75zM9.75 8.625c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-.75a1.875 1.875 0 01-1.875-1.875V8.625zM3 13.125c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v6.75c0 1.035-.84 1.875-1.875 1.875h-.75A1.875 1.875 0 013 19.875v-6.75z"></path>
                   </svg>
-                  <a href="#"
-                    class="small-box-footer link-light link-underline-opacity-0 link-underline-opacity-50-hover">
+                  <a href="#" class="small-box-footer link-light link-underline-opacity-0 link-underline-opacity-50-hover">
                     More info <i class="bi bi-link-45deg"></i>
                   </a>
                 </div>
                 <!--end::Small Box Widget 2-->
               </div>
               <!--end::Col-->
-              <div class="col-lg-3 col-6">
+            </div>
+
+            <!-- Second Row -->
+            <div class="row">
+              <!--begin::Col (Second row, first column)-->
+              <div class="col-lg-6 col-12"> <!-- Adjusted to col-lg-6 to fit two boxes per row -->
                 <!--begin::Small Box Widget 3-->
-                <div class="small-box text-bg-warning">
+                <div class="small-box text-bg-warning" style="width: 70%; height: 210px; margin: 0 auto; margin-bottom: 20px;"> <!-- Updated height to 210px -->
                   <div class="inner">
                     <h3>44</h3>
                     <p>Total Parsel</p>
                   </div>
-                  <svg class="small-box-icon" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
-                    aria-hidden="true">
-                    <path clip-rule="evenodd" fill-rule="evenodd"
-                      d="M2.25 13.5a8.25 8.25 0 018.25-8.25.75.75 0 01.75.75v6.75H18a.75.75 0 01.75.75 8.25 8.25 0 01-16.5 0z">
-                    </path>
-                    <path clip-rule="evenodd" fill-rule="evenodd"
-                      d="M12.75 3a.75.75 0 01.75-.75 8.25 8.25 0 018.25 8.25.75.75 0 01-.75.75h-7.5a.75.75 0 01-.75-.75V3z">
-                    </path>
+                  <svg class="small-box-icon" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path clip-rule="evenodd" fill-rule="evenodd" d="M2.25 13.5a8.25 8.25 0 018.25-8.25.75.75 0 01.75.75v6.75H18a.75.75 0 01.75.75 8.25 8.25 0 01-16.5 0z"></path>
+                    <path clip-rule="evenodd" fill-rule="evenodd" d="M12.75 3a.75.75 0 01.75-.75 8.25 8.25 0 018.25 8.25.75.75 0 01-.75.75h-7.5a.75.75 0 01-.75-.75V3z"></path>
                   </svg>
-                  <a href="#"
-                    class="small-box-footer link-light link-underline-opacity-0 link-underline-opacity-50-hover">
+                  <a href="#" class="small-box-footer link-light link-underline-opacity-0 link-underline-opacity-50-hover">
                     More info <i class="bi bi-link-45deg"></i>
                   </a>
                 </div>
                 <!--end::Small Box Widget 3-->
               </div>
               <!--end::Col-->
-              <div class="col-lg-3 col-6">
+
+              <!--begin::Col (Second row, second column)-->
+              <div class="col-lg-6 col-12"> <!-- Adjusted to col-lg-6 to fit two boxes per row -->
                 <!--begin::Small Box Widget 4-->
-                <div class="small-box text-bg-danger">
+                <div class="small-box text-bg-danger" style="width: 70%; height: 210px; margin: 0 auto; margin-bottom: 20px;"> <!-- Updated height to 210px -->
                   <div class="inner">
                     <h3>65</h3>
-                    <p>Today delivered</p>
+                    <p>Today Delivered</p>
                   </div>
-                  <svg class="small-box-icon" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
-                    aria-hidden="true">
-                    <path clip-rule="evenodd" fill-rule="evenodd"
-                      d="M2.25 13.5a8.25 8.25 0 018.25-8.25.75.75 0 01.75.75v6.75H18a.75.75 0 01.75.75 8.25 8.25 0 01-16.5 0z">
-                    </path>
-                    <path clip-rule="evenodd" fill-rule="evenodd"
-                      d="M12.75 3a.75.75 0 01.75-.75 8.25 8.25 0 018.25 8.25.75.75 0 01-.75.75h-7.5a.75.75 0 01-.75-.75V3z">
-                    </path>
+                  <svg class="small-box-icon" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path clip-rule="evenodd" fill-rule="evenodd" d="M2.25 13.5a8.25 8.25 0 018.25-8.25.75.75 0 01.75.75v6.75H18a.75.75 0 01.75.75 8.25 8.25 0 01-16.5 0z"></path>
+                    <path clip-rule="evenodd" fill-rule="evenodd" d="M12.75 3a.75.75 0 01.75-.75 8.25 8.25 0 018.25 8.25.75.75 0 01-.75.75h-7.5a.75.75 0 01-.75-.75V3z"></path>
                   </svg>
-                  <a href="#"
-                    class="small-box-footer link-light link-underline-opacity-0 link-underline-opacity-50-hover">
+                  <a href="#" class="small-box-footer link-light link-underline-opacity-0 link-underline-opacity-50-hover">
                     More info <i class="bi bi-link-45deg"></i>
                   </a>
                 </div>
@@ -373,16 +348,24 @@
               </div>
               <!--end::Col-->
             </div>
-            <!--end::Row-->
-            <!--begin::Row-->
-            <?php
-            // include_once("../connect/graph.php");
-            ?>
-            <!-- /.row (main row) -->
+
+
+
           </div>
-          <!--end::Container-->
+          <!--end::Row-->
+          
+
+
+          <!-- graph -->
+          <?php
+          // include_once("../connect/graph.php");
+          ?>
+          <!-- /.row (main row) -->
         </div>
+        <!--end::Container-->
       </div>
+
+
       <!--end::App Content-->
 
 
@@ -404,12 +387,10 @@
 
 
 
-      <div class="hidden" id="form-hidden">
-
-
+      <!-- <div class="hidden" id="form-hidden">
         <div class="container">
           <form>
-            <!--begin::Body-->
+            //begin::Body
             <div class="card-body">
               <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Email address</label>
@@ -431,15 +412,17 @@
                 <label class="form-check-label" for="exampleCheck1">Check me out</label>
               </div>
             </div>
-            <!--end::Body-->
-            <!--begin::Footer-->
+            //end::Body
+            //begin::Footer
             <div class="card-footer">
               <button type="submit" class="btn btn-primary">Submit</button>
             </div>
-            <!--end::Footer-->
+            //end::Footer
           </form>
         </div>
-      </div>
+      </div> -->
+
+
     </main>
     <!--end::App Main-->
     <!--begin::Footer-->
@@ -480,7 +463,7 @@
       scrollbarAutoHide: 'leave',
       scrollbarClickScroll: true,
     };
-    document.addEventListener('DOMContentLoaded', function () {
+    document.addEventListener('DOMContentLoaded', function() {
       const sidebarWrapper = document.querySelector(SELECTOR_SIDEBAR_WRAPPER);
       if (sidebarWrapper && typeof OverlayScrollbarsGlobal?.OverlayScrollbars !== 'undefined') {
         OverlayScrollbarsGlobal.OverlayScrollbars(sidebarWrapper, {
@@ -520,14 +503,12 @@
   <!-- my js -->
   <script src="./js/show.js"></script>
   <script>
-
     // NOTICE!! DO NOT USE ANY OF THIS JAVASCRIPT
     // IT'S ALL JUST JUNK FOR DEMO
     // ++++++++++++++++++++++++++++++++++++++++++
 
     const sales_chart_options = {
-      series: [
-        {
+      series: [{
           name: 'Digital Goods',
           data: [28, 48, 40, 19, 86, 27, 90],
         },
@@ -607,11 +588,9 @@
 
     // Sparkline charts
     const option_sparkline1 = {
-      series: [
-        {
-          data: [1000, 1200, 920, 927, 931, 1027, 819, 930, 1021],
-        },
-      ],
+      series: [{
+        data: [1000, 1200, 920, 927, 931, 1027, 819, 930, 1021],
+      }, ],
       chart: {
         type: 'area',
         height: 50,
@@ -635,11 +614,9 @@
     sparkline1.render();
 
     const option_sparkline2 = {
-      series: [
-        {
-          data: [515, 519, 520, 522, 652, 810, 370, 627, 319, 630, 921],
-        },
-      ],
+      series: [{
+        data: [515, 519, 520, 522, 652, 810, 370, 627, 319, 630, 921],
+      }, ],
       chart: {
         type: 'area',
         height: 50,
@@ -663,11 +640,9 @@
     sparkline2.render();
 
     const option_sparkline3 = {
-      series: [
-        {
-          data: [15, 19, 20, 22, 33, 27, 31, 27, 19, 30, 21],
-        },
-      ],
+      series: [{
+        data: [15, 19, 20, 22, 33, 27, 31, 27, 19, 30, 21],
+      }, ],
       chart: {
         type: 'area',
         height: 50,
