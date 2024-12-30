@@ -71,6 +71,16 @@ if (isset($_POST["loggedin"])) {
             border-radius: 5px;
             font-size: 16px;
         }
+        .my-btn{
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
 
         input[type="submit"] {
             width: 100%;
@@ -112,6 +122,7 @@ if (isset($_POST["loggedin"])) {
         <input type="password" placeholder="Enter your password" name="password" required><br>
 
         <input type="submit" name="loggedin" value="Log in">
+        <a href="./registration.php">Registar</a>
     </form>
 
 </body>
