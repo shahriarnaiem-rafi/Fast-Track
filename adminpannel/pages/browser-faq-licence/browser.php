@@ -46,9 +46,9 @@
             font-weight: bold;
         }
     </style>
-</head>
 
-<body>
+
+
     <div class="support-container">
         <h2>Supported Browsers</h2>
         <p>Our platform works best with the following browsers. Ensure you are using the latest version for the best experience:</p>
@@ -72,4 +72,4 @@
         </ul>
         <p style="margin-top: 20px; text-align: center;">Note: Older versions or unsupported browsers may cause display or functionality issues.</p>
     </div>
-</body>
+
