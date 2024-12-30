@@ -205,7 +205,7 @@ include_once "../connect/aside.php";
 
       <div id="browser-id" class="hidden">
         <?php
-        include_once "./browser-faq-licence/browser.php";
+        // include_once "./browser-faq-licence/browser.php";
         ?>
       </div>
 
@@ -213,13 +213,13 @@ include_once "../connect/aside.php";
 
       <div id="faq-id" class="hidden">
         <?php
-        include_once "./browser-faq-licence/faq.php";
+        // include_once "./browser-faq-licence/faq.php";
         ?>
       </div>
       <!-- licence section -->
       <div id="licence-id" class="hidden">
         <?php
-        include_once "./browser-faq-licence/licence.php";
+        // include_once "./browser-faq-licence/licence.php";
         ?>
       </div>
 
