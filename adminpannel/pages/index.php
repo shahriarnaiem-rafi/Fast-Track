@@ -41,7 +41,7 @@ include_once "../connect/aside.php";
       <!--begin::Container-->
 
 
-      <div class="container-fluid dashboard-show hidden" id="dashboard-section">
+      <div class="container-fluid dashboard-show " id="dashboard-section">
         <div class="row">
           <!-- First Row -->
           <div class="col-lg-6 col-12">

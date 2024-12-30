@@ -1,3 +1,14 @@
+<?php
+  // $database=mysqli_connect("localhost","root","","fasttrack");
+  // $check = $database->prepare("SELECT * FROM registration WHERE email= ?");
+  // $UserId=$_SESSION['id'];
+  // $check->bind_param("i", $UserId);
+  // if ($check->execute()) {
+  //     $output = $check->get_result();
+  //     $user = $output->fetch_assoc();
+  // }
+
+?>
 <!doctype html>
 <html lang="en">
 <!--begin::Head-->
@@ -193,8 +204,9 @@
               <li class="user-header text-bg-primary">
                 <img src="../assets/img/shahriar.png" class="rounded-circle shadow" alt="User Image" />
                 <p>
-                  Shahriar Naiem - Web Developer
-                  <small>Member since Decemer. 2024</small>
+                  <?php
+                    // $user['name'];
+                  ?>
                 </p>
               </li>
               <!--end::User Image-->
