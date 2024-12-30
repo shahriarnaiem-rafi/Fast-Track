@@ -234,7 +234,7 @@ Manage notification settings (email/SMS alerts for delivery updates). -->
           </ul>
         </li>
 
-        <li class="nav-item">
+        <li class="nav-item" >
           <a href="" class="nav-link" id="browser-btn">
             <i class="nav-icon bi bi-browser-edge"></i>
             <p>Browser Support</p>

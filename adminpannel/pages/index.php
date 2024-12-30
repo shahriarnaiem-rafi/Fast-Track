@@ -202,6 +202,7 @@ include_once "../connect/aside.php";
       </div>
       <!-- Proved section -->
       <!-- browser section -->
+       
 
       <div id="browser-id" class="hidden">
         <?php
