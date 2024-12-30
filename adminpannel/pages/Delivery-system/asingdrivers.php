@@ -4,26 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Customer Section</title>
+    <title>Assign Drivers</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
     <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f9;
             margin: 0;
-            padding: 0;
+            padding: 20px;
         }
 
-        .form-container {
-            max-width: 400px;
-            margin: 50px auto;
+        .assign-container {
+            max-width: 500px;
+            margin: 20px auto;
             background: #fff;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
 
-        .form-container h2 {
+        h2 {
             text-align: center;
             margin-bottom: 20px;
         }
@@ -57,48 +57,41 @@
             border: none;
             border-radius: 4px;
             cursor: pointer;
-            background-color: #28a745;
+            background-color: #007bff;
             color: #fff;
         }
     </style>
 </head>
 
 <body>
-    <div class="form-container">
-        <h2>Customer Form</h2>
+    <div class="assign-container">
+        <h2>Assign Drivers</h2>
         <form action="#" method="post">
             <div class="form-group">
-                <label for="customer-id">Customer ID</label>
-                <input type="text" id="customer-id" name="customer_id" placeholder="Auto-generated" disabled>
+                <label for="order-id">Order ID</label>
+                <input type="text" id="order-id" name="order_id" placeholder="Enter Order ID">
             </div>
             <div class="form-group">
-                <label for="name">Full Name</label>
-                <input type="text" id="name" name="name" placeholder="Enter name">
+                <label for="driver">Assign Driver</label>
+                <select id="driver" name="driver">
+                    <option value="driver_1">John Doe</option>
+                    <option value="driver_2">Jane Smith</option>
+                    <option value="driver_3">Michael Brown</option>
+                </select>
             </div>
             <div class="form-group">
-                <label for="email">Email Address</label>
-                <input type="email" id="email" name="email" placeholder="Enter email">
-            </div>
-            <div class="form-group">
-                <label for="phone">Phone Number</label>
-                <input type="text" id="phone" name="phone" placeholder="Enter phone number">
-            </div>
-            <div class="form-group">
-                <label for="payment-method">Payment Method</label>
-                <select id="payment-method" name="payment_method">
-                    <option value="credit_card">Credit Card</option>
-                    <option value="paypal">PayPal</option>
-                    <option value="cash">Cash</option>
+                <label for="vehicle">Assign Vehicle</label>
+                <select id="vehicle" name="vehicle">
+                    <option value="vehicle_1">Truck 101</option>
+                    <option value="vehicle_2">Van 202</option>
+                    <option value="vehicle_3">Bike 303</option>
                 </select>
             </div>
             <div class="form-actions">
-                <button type="submit">Save Customer</button>
-                <button type="button" class="receipt-btn">Generate Receipt</button>
-                
+                <button type="submit">Assign</button>
             </div>
         </form>
     </div>
-    <script src="https://cdn.tailwindcss.com"></script>
 </body>
 
 </html>

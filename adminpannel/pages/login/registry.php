@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User Section</title>
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <style>
+<style>
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f9;
@@ -14,16 +6,16 @@
             padding: 0;
         }
 
-        .form-container {
-            max-width: 400px;
+        .register-container {
+            max-width: 500px;
             margin: 50px auto;
             background: #fff;
-            padding: 20px;
+            padding: 30px;
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
 
-        .form-container h2 {
+        h2 {
             text-align: center;
             margin-bottom: 20px;
         }
@@ -49,6 +41,7 @@
 
         .form-actions {
             text-align: center;
+            margin-top: 20px;
         }
 
         .form-actions button {
@@ -60,44 +53,55 @@
             background-color: #007bff;
             color: #fff;
         }
+
+        .form-actions a {
+            color: #007bff;
+            text-decoration: none;
+            margin-top: 10px;
+            display: inline-block;
+        }
+
+        .form-actions a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 
 <body>
-    <div class="form-container">
-        <h2>User Form</h2>
+    <div class="register-container">
+        <h2>Register</h2>
         <form action="#" method="post">
             <div class="form-group">
-                <label for="user-id">User ID</label>
-                <input type="text" id="user-id" name="user_id" placeholder="Auto-generated" disabled>
-            </div>
-            <div class="form-group">
-                <label for="username">Username</label>
-                <input type="text" id="username" name="username" placeholder="Enter username">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
             </div>
             <div class="form-group">
                 <label for="email">Email Address</label>
-                <input type="email" id="email" name="email" placeholder="Enter email">
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
             </div>
             <div class="form-group">
-                <label for="phone">Phone Number</label>
-                <input type="text" id="phone" name="phone" placeholder="Enter phone number">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Create a password" required>
             </div>
             <div class="form-group">
-                <label for="role">User Role</label>
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" name="confirm_password" placeholder="Confirm your password" required>
+            </div>
+            <div class="form-group">
+                <label for="role">Role</label>
                 <select id="role" name="role">
+                    <option value="user">User</option>
                     <option value="admin">Admin</option>
-                    <option value="editor">Editor</option>
-                    <option value="viewer">Viewer</option>
                 </select>
             </div>
             <div class="form-actions">
-                <button type="submit">Save User</button>
-                <button type="button" class="reset-btn">Reset Form</button>
+                <button type="submit">Register</button>
+                <div>
+                    <a href="login.html">Already have an account? Login</a>
+                </div>
             </div>
         </form>
     </div>
-    <script src="https://cdn.tailwindcss.com"></script>
 </body>
 
-</html>
+

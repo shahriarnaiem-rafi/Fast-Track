@@ -51,7 +51,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a href="./tables/simple.html" class="nav-link">
+              <a href="" class="nav-link" id="customer-btn">
                 <i class="nav-icon bi bi-circle"></i>
                 <p>Customer Section</p>
               </a>
@@ -61,10 +61,7 @@
 
 
 
-
-
-
-        <!-- Dalybary  Management -->
+        <!-- Delivery  Management -->
         <li class="nav-item">
           <a href="#" class="nav-link">
             <i class="fa-solid fa-truck"></i>
@@ -75,28 +72,28 @@
           </a>
           <ul class="nav nav-treeview">
             <li class="nav-item">
-              <a href="./tables/simple.html" class="nav-link">
+              <a href="" class="nav-link" id="delivery-order-list-btn">
                 <i class="nav-icon bi bi-circle"></i>
                 <p>Order list</p>
                 <!-- Order list : Order List: A table with columns like order ID, customer name, pickup location, delivery location, status, etc.-->
               </a>
             </li>
             <li class="nav-item">
-              <a href="./tables/simple.html" class="nav-link">
+              <a href="" class="nav-link" id="delivery-status-btn">
                 <i class="nav-icon bi bi-circle"></i>
                 <p>Status Updates</p>
                 <!-- Update delivery status (e.g., pending, in transit, delivered).-->
               </a>
             </li>
             <li class="nav-item">
-              <a href="./tables/simple.html" class="nav-link">
+              <a href="" class="nav-link" id="delivery-assing-btn">
                 <i class="nav-icon bi bi-circle"></i>
                 <p>Assign Drivers</p>
                 <!-- Assign delivery staff or vehicles to specific orders.-->
               </a>
             </li>
             <li class="nav-item">
-              <a href="./tables/simple.html" class="nav-link">
+              <a href="" class="nav-link" id="delivery-track-btn">
                 <i class="nav-icon bi bi-circle"></i>
                 <p>Tracking Info</p>
                 <!--  Update or view tracking numbers for shipments.-->
@@ -117,7 +114,7 @@
           </a>
           <ul class="nav nav-treeview">
             <li class="nav-item">
-              <a href="#" class="nav-link transection-history'">
+              <a href="#" class="nav-link " id="driver-btn">
                 <i class="nav-icon bi bi-circle"></i>
                 <p>Drivers</p>
                 <!-- Add and manage driver profiles.
@@ -139,7 +136,7 @@ Assign tasks to drivers. -->
           </a>
           <ul class="nav nav-treeview">
             <li class="nav-item">
-              <a href="#" class="nav-link transection-history'">
+              <a href="#" class="nav-link " id="payment-btn">
                 <i class="fa-solid fa-money-bill"></i>
                 <p>Payments</p>
                 <!-- View payment history from customers.
@@ -164,7 +161,7 @@ Display profit/loss analytics. -->
           </a>
           <ul class="nav nav-treeview">
             <li class="nav-item">
-              <a href="#" class="nav-link transection-history'">
+              <a href="#" class="nav-link" id="support-btn">
                 <i class="fa-solid fa-handshake-angle"></i>
                 <p>Suport</p>
                 <!-- View and manage customer queries or complaints.
@@ -185,7 +182,7 @@ Respond to queries directly from the admin panel. -->
           </a>
           <ul class="nav nav-treeview">
             <li class="nav-item">
-              <a href="#" class="nav-link transection-history'">
+              <a href="#" class="nav-link " id="setting-btn">
               <i class="fa-solid fa-gear"></i>
                 <p>Settings</p>
                 <!-- Change admin profile details.
@@ -200,44 +197,6 @@ Manage notification settings (email/SMS alerts for delivery updates). -->
 
 
 
-        <!-- form -->
-
-        <!-- <li class="nav-item">
-          <a href="#" class="nav-link dashboard-show">
-            <i class="nav-icon bi bi-pencil-square"></i>
-            <p>
-              Forms
-              <i class="nav-arrow bi bi-chevron-right"></i>
-            </p>
-          </a>
-          <ul class="nav nav-treeview">
-            <li class="nav-item">
-              <a href="" class="nav-link transection-history'">
-                <i class="nav-icon bi bi-circle"></i>
-                <p>General Elements</p>
-              </a>
-            </li>
-          </ul>
-        </li>
-
-
-        <li class="nav-item">
-          <a href="#" class="nav-link">
-            <i class="nav-icon bi bi-table"></i>
-            <p>
-              Tables
-              <i class="nav-arrow bi bi-chevron-right"></i>
-            </p>
-          </a>
-          <ul class="nav nav-treeview">
-            <li class="nav-item">
-              <a href="./tables/simple.html" class="nav-link">
-                <i class="nav-icon bi bi-circle"></i>
-                <p>Simple Tables</p>
-              </a>
-            </li>
-          </ul>
-        </li> -->
         <li class="nav-header">EXAMPLES</li>
         <li class="nav-item">
           <a href="#" class="nav-link">
@@ -258,13 +217,13 @@ Manage notification settings (email/SMS alerts for delivery updates). -->
               </a>
               <ul class="nav nav-treeview">
                 <li class="nav-item">
-                  <a href="./examples/login.php" class="nav-link">
+                  <a href="" class="nav-link" id="aurth-login-btn">
                     <i class="nav-icon bi bi-circle"></i>
                     <p>Login</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="./examples/registration.php" class="nav-link">
+                  <a href="" class="nav-link" id="aurth-registry-btn">
                     <i class="nav-icon bi bi-circle"></i>
                     <p>Register</p>
                   </a>
@@ -276,20 +235,20 @@ Manage notification settings (email/SMS alerts for delivery updates). -->
         </li>
 
         <li class="nav-item">
-          <a href="./docs/browser-support.html" class="nav-link">
+          <a href="" class="nav-link" id="browser-btn">
             <i class="nav-icon bi bi-browser-edge"></i>
             <p>Browser Support</p>
           </a>
         </li>
 
         <li class="nav-item">
-          <a href="./docs/faq.html" class="nav-link">
+          <a href="" class="nav-link" id="faq-btn">
             <i class="nav-icon bi bi-question-circle-fill"></i>
             <p>FAQ</p>
           </a>
         </li>
         <li class="nav-item">
-          <a href="./docs/license.html" class="nav-link">
+          <a href="" class="nav-link" id="licence-btn">
             <i class="nav-icon bi bi-patch-check-fill"></i>
             <p>License</p>
           </a>

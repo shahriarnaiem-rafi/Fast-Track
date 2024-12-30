@@ -122,6 +122,80 @@ include_once "../connect/aside.php";
           include_once "./user-management/usersection.php";
         ?>
       </div>
+      <div id="customer-id" class="hidden">
+        <?php 
+          include_once "./user-management/customer.php";
+        ?>
+      </div>
+
+      <div id="delivery-orderlist-id" class="hidden">
+        <?php 
+          include_once "./Delivery-system/orderlist.php";
+        ?>
+      </div>
+      <div id="delivery-status-id" class="hidden">
+        <?php 
+          include_once "./Delivery-system/status.php";
+        ?>
+      </div>
+      <div id="delivery-assing-id" class="hidden">
+        <?php 
+          include_once "./Delivery-system/asingdrivers.php";
+        ?>
+      </div>
+      <div id="delivery-track-id" class="hidden">
+        <?php 
+          include_once "./Delivery-system/trackinginfo.php";
+        ?>
+      </div>
+      <div id="driver-id" class="hidden">
+        <?php 
+          include_once "./drivermanagement/driverm.php";
+        ?>
+      </div>
+
+      <div id="payment-id" class="hidden">
+        <?php 
+          include_once "./payment/payment.php";
+        ?>
+      </div>
+      <div id="support-id" class="hidden">
+        <?php 
+          include_once "./customersupport/support.php";
+        ?>
+      </div>
+      <div id="setting-id" class="hidden">
+        <?php 
+          include_once "./setting/setting.php";
+        ?>
+      </div>
+      <div id="aurth-login-id" class="hidden">
+        <?php 
+          include_once "./login/login.php";
+        ?>
+      </div>
+      <div id="aurth-registry-id" class="hidden">
+        <?php 
+          include_once "./login/registry.php";
+        ?>
+      </div>
+
+      <div id="browser-id" class="hidden">
+        <?php 
+          include_once "./browser-faq-licence/browser.php";
+        ?>
+      </div>
+
+      <div id="faq-id" class="hidden">
+        <?php 
+          include_once "./browser-faq-licence/faq.php";
+        ?>
+      </div>
+      <div id="licence-id" class="hidden">
+        <?php 
+          include_once "./browser-faq-licence/licence.php";
+        ?>
+      </div>
 
 
 

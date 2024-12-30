@@ -4,26 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User Section</title>
+    <title>Status Updates</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
     <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f9;
             margin: 0;
-            padding: 0;
+            padding: 20px;
         }
 
-        .form-container {
-            max-width: 400px;
-            margin: 50px auto;
+        .status-container {
+            max-width: 500px;
+            margin: 20px auto;
             background: #fff;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
 
-        .form-container h2 {
+        h2 {
             text-align: center;
             margin-bottom: 20px;
         }
@@ -38,7 +38,6 @@
             font-weight: bold;
         }
 
-        .form-group input,
         .form-group select {
             width: 100%;
             padding: 10px;
@@ -64,40 +63,27 @@
 </head>
 
 <body>
-    <div class="form-container">
-        <h2>User Form</h2>
+    <div class="status-container">
+        <h2>Status Updates</h2>
         <form action="#" method="post">
             <div class="form-group">
-                <label for="user-id">User ID</label>
-                <input type="text" id="user-id" name="user_id" placeholder="Auto-generated" disabled>
+                <label for="order-id">Order ID</label>
+                <input type="text" id="order-id" name="order_id" placeholder="Enter Order ID">
             </div>
             <div class="form-group">
-                <label for="username">Username</label>
-                <input type="text" id="username" name="username" placeholder="Enter username">
-            </div>
-            <div class="form-group">
-                <label for="email">Email Address</label>
-                <input type="email" id="email" name="email" placeholder="Enter email">
-            </div>
-            <div class="form-group">
-                <label for="phone">Phone Number</label>
-                <input type="text" id="phone" name="phone" placeholder="Enter phone number">
-            </div>
-            <div class="form-group">
-                <label for="role">User Role</label>
-                <select id="role" name="role">
-                    <option value="admin">Admin</option>
-                    <option value="editor">Editor</option>
-                    <option value="viewer">Viewer</option>
+                <label for="delivery-status">Delivery Status</label>
+                <select id="delivery-status" name="delivery_status">
+                    <option value="pending">Pending</option>
+                    <option value="in_transit">In Transit</option>
+                    <option value="delivered">Delivered</option>
+                    <option value="cancelled">Cancelled</option>
                 </select>
             </div>
             <div class="form-actions">
-                <button type="submit">Save User</button>
-                <button type="button" class="reset-btn">Reset Form</button>
+                <button type="submit">Update Status</button>
             </div>
         </form>
     </div>
-    <script src="https://cdn.tailwindcss.com"></script>
 </body>
 
 </html>
