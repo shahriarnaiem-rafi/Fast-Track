@@ -28,9 +28,9 @@
         <li class="nav-item menu-open">
 
 
-          <a href="./index.php" class="nav-link active">
+          <a href="" class="nav-link active" id="dashboard-btn">
             <i class="fa-solid fa-gauge"></i>
-            <p>Dashboard v1</p>
+            <p>Dashboard </p>
           </a>
 
         </li>
@@ -44,8 +44,8 @@
             </p>
           </a>
           <ul class="nav nav-treeview">
-            <li class="nav-item">
-              <a href="./tables/simple.html" class="nav-link">
+            <li class="nav-item" >
+              <a href="" class="nav-link" id="user-btn">
                 <i class="nav-icon bi bi-circle"></i>
                 <p>User Section</p>
               </a>
