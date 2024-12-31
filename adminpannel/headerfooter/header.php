@@ -1,12 +1,19 @@
 <?php
-  // $database=mysqli_connect("localhost","root","","fasttrack");
-  // $check = $database->prepare("SELECT * FROM registration WHERE email= ?");
-  // $UserId=$_SESSION['id'];
-  // $check->bind_param("i", $UserId);
-  // if ($check->execute()) {
-  //     $output = $check->get_result();
-  //     $user = $output->fetch_assoc();
-  // }
+session_start();
+  $database=mysqli_connect("localhost","root","","fasttrack");
+  $userId = $_SESSION['user-id'];
+$sql = "SELECT * FROM registration WHERE id = ?";
+$stmt = $database->prepare($sql);
+$stmt->bind_param("i", $userId);
+$stmt->execute();
+$result = $stmt->get_result();
+
+if ($result->num_rows > 0) {
+    $user = $result->fetch_assoc();
+} else {
+    echo "User not found.";
+    exit;
+}
 
 ?>
 <!doctype html>
@@ -202,10 +209,8 @@
               <!--begin::User Image-->
               <li class="user-header text-bg-primary">
                 <img src="../assets/img/shahriar.png" class="rounded-circle shadow" alt="User Image" />
-                <p>shahriar
-                  <?php
-                    // $user['name'];
-                  ?>
+                <p>
+                  <?=htmlspecialchars($user['name'])?>
                 </p>
               </li>
               <!--end::User Image-->
