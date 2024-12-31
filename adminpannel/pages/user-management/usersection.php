@@ -42,7 +42,6 @@
     .form-actions {
         text-align: center;
     }
-
     .form-actions button {
         padding: 10px 20px;
         font-size: 16px;
