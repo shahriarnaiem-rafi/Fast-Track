@@ -197,7 +197,7 @@
 
     <div id="receipt" style="display: none;">
         <div class="receipt-header">
-            Sundarban Courier Service (PVT.) LTD.
+            Fast-track Courier Service (PVT.) LTD.
         </div>
         <div class="receipt-row">
             <div>

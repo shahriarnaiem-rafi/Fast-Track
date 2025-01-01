@@ -1,3 +1,20 @@
+<?php
+$database = mysqli_connect("localhost", "root", "", "fasttrack");
+if (isset($_POST['registar'])) {
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $password = $_POST['password'];
+    $confirm = $_POST['confirm_password'];
+    $role = $_POST['role'];
+
+    $sql = "INSERT INTO register_staf(name,email,password,role) VALUES('$name','$email','$password','$role')";
+    if (mysqli_query($database, $sql) == TRUE) {
+        header("location:../../../registarrole.php");
+    } 
+    header("location:$_SERVER[PHP_SELF]");
+}
+
+?>
 <style>
     body {
         font-family: Arial, sans-serif;
@@ -93,7 +110,7 @@
             </select>
         </div>
         <div class="form-actions">
-            <button type="submit">Register</button>
+            <button type="submit" name="registar">Register</button>
             <div>
                 <a href="login.html">Already have an account? Login</a>
             </div>
