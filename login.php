@@ -138,7 +138,7 @@ if (isset($_POST["loggedin"])) {
 
 <body>
 
-    <form action="#" method="post">
+    <form action="" method="post">
         <h2>Login</h2>
         <!-- Display error message if exists -->
         <?php if (isset($error_massage)): ?>
