@@ -56,14 +56,7 @@ header("location:");
                         <div style="width:800px; margin-left:-200px">
 
                             <div style="position: absolute; ">
-                                <select class="select" style="color:black; width:200px; ">
-                                    <option selected>last 7das</option>
-                                    <option>last 10days</option>
-                                    <option>last 15days</option>
-                                    <option>last 24days</option>
-                                    <option>last 30days</option>
-
-                                </select>
+                                <input type="date" style="width: 200px; height: 50px; color:black;" class="input input-bordered">
                             </div>
                             <div style="position: absolute; margin-left:220px;">
                                 <select class="select" style="color:black; width:200px; ">
