@@ -24,6 +24,7 @@
 
         .carousel_img img {
             height: 400px;
+            
         }
     </style>
 </head>
@@ -50,7 +51,7 @@
         <nav class="container">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
-                    <a class="text-xl" href="#"><img src="./img/logo.png" alt="" style="width:80px"></a>
+                    <a class="text-xl" href="#"><img src="./img/logo2.png" alt="" style="width:200px; position:absolute; margin-top:-83px; border-radius: 50px 50px 50px 50px; margin-left:-30px;"></a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1">
@@ -89,11 +90,8 @@
                                 </ul>
                             </details>
                         </li>
-                        <li> <a class="btn  btn-danger" href="track.php">Track Me</a></li>
+                        <li> <a class="btn-danger" href="track.php">Track Me</a></li>
                     </ul>
-                </div>
-                <div class="navbar-end">
-
                 </div>
             </div>
         </nav>
@@ -104,15 +102,18 @@
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active carousel_img">
-                        <img src="./img/car1.png" class="d-block w-100" alt="...">
+                        <img src="./img/carr1.png" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item carousel_img">
-                        <img src="./img/carr2.png" class="d-block w-100" alt="...">
+                        <img src="./img/car2.png" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item carousel_img">
                         <img src="./img/car3.png" class="d-block w-100" alt="...">
                     </div>
                 </div>
+
+
+
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
                     data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -124,7 +125,7 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-        </section>
+        </section><br>
 
         <!-- carosoul end -->
 
