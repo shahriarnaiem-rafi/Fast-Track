@@ -44,7 +44,7 @@
             </p>
           </a>
           <ul class="nav nav-treeview">
-            <li class="nav-item" >
+            <li class="nav-item" disabled>
               <a href="" class="nav-link" id="user-btn">
                 <i class="nav-icon bi bi-circle"></i>
                 <p>User Section</p>
