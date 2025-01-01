@@ -8,7 +8,7 @@ header("location:");
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Traking</title>
-    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/logo2.png" type="image/x-icon">
     <!-- font awsome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <!-- daisy UI -->
@@ -17,23 +17,32 @@ header("location:");
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+    <style>
+        #home-login:hover {
+
+            color: white;
+        }
+        .my-btn:hover {
+
+            background-color: black;
+        }
+    </style>
 </head>
 
 <body>
     <nav>
         <div class="navbar bg-base-100 container">
             <div class="navbar-start">
-                <a class="text-xl" href="#"><img src="./img/logo.png" alt="" style="width:80px"></a>
-                <a  href="#" class="text-2xl" style="color:orange;">Fast-track Courier <br>
-                Service (Pvt.) Ltd.</a>
+                <a class="text-xl" href="#"><img src="./img/logo2.png" alt="" style="width:120px; border-radius: 50px 50px 50px 50px;"></a>
+                <a href="#" class="text-2xl" style="color:orange;">Fast-track Courier <br>
+                    Service (Pvt.) Ltd.</a>
             </div>
             <div class="flex-none">
 
 
-                <button class="btn btn-primary w-24 " style="margin-right: 100px;"><a href="home.php">Home</a></button>
+                <button class="btn btn-primary w-24 text-xl my-btn" style="margin-right: 100px;"> <a href="home.php" id="home-login"> Home</a></button>
 
-                <button class="btn btn-success w-24"><a href="login.php"><i class="fa-solid fa-lock"></i> Log
-                        in</a></button>
+                <button class="btn btn-success w-24   my-btn"><a href="login.php" id="home-login"><i class="fa-solid fa-lock"></i> Log in</a></button>
             </div>
 
         </div>
@@ -83,9 +92,9 @@ header("location:");
     <section style="heaight:200px; background-color:aqua;">
         <div class="container"><br>
             <div class="text-center">
-            <h1 class="mb-5 text-2xl font-bold ">To see your bookings please visit Customer Dashboard.</h1>
-            
-            <button class="btn btn-success" style="margin-top:-25px">Click Here</button>
+                <h1 class="mb-5 text-2xl font-bold ">To see your bookings please visit Customer Dashboard.</h1>
+
+                <button class="btn btn-success" style="margin-top:-25px">Click Here</button>
             </div><br>
         </div>
 
