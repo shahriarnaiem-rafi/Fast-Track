@@ -108,7 +108,7 @@
                         <img src="./img/car2.png" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item carousel_img">
-                        <img src="./img/car3.png" class="d-block w-100" alt="...">
+                        <img src="./img/car5.png" class="d-block w-100" alt="...">
                     </div>
                 </div>
 

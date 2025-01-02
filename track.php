@@ -109,7 +109,7 @@ header("location:");
                     <p class="py-6">
                         Download now & avail all of our services through the app
                     </p>
-                    <button class="btn btn-primary"><a href="#"><i class="fa-solid fa-gamepad"></i>Download</a></button>
+                    <button class="btn btn-primary"><a href="https://play.google.com/store/games?hl=en&pli=1"><i class="fa-solid fa-gamepad"></i>Download</a></button>
                 </div>
             </div>
         </div>

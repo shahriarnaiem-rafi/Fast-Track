@@ -144,16 +144,18 @@ if (isset($_POST["loggedin"])) {
         <?php if (isset($error_massage)): ?>
             <div class="error-message"><?php echo $error_massage; ?></div>
         <?php endif; ?>
+        <label for="role">Role</label>
+        <select name="role" id="role">
+            <option value="Admin">Admin</option>
+            <option value="Staf">Staf</option>
+        </select>
 
         <label for="email">Email</label>
         <input type="text" placeholder="Enter your email" name="email" required><br>
 
         <label for="password">Password</label>
         <input type="password" placeholder="Enter your password" name="password" required><br>
-        <select name="role" id="">
-            <option value="Admin">Admin</option>
-            <option value="Staff">Staff</option>
-        </select>
+       
 
         <input type="submit" name="loggedin" value="Log in">
         <a href="./registration.php">Registar</a>

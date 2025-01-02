@@ -50,12 +50,12 @@
                 <p>User Section</p>
               </a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a href="" class="nav-link" id="customer-btn">
                 <i class="nav-icon bi bi-circle"></i>
                 <p>Customer Section</p>
               </a>
-            </li>
+            </li> -->
           </ul>
         </li>
 
